@@ -1,8 +1,8 @@
 WordPress Plugin Development Docker Environment
 -----------------------------------------------
-This repository provides a baseline WordPress Plugin Development environment.  This Docker composition consists of two container images:
-* *dwp-mysql*: MySQL (5.5)
-* *dwp-wordpress*: WordPress (latest)
+This repository provides a baseline WordPress Plugin development environment.  This Docker composition consists of two container images:
+* dwp-mysql: MySQL (5.5)
+* dwp-wordpress: WordPress (latest)
 
 ### Usage ###
 1. Ensure you have [Docker installed](https://docs.docker.com/engine/installation/).
