@@ -1,0 +1,13 @@
+dwp-mysql:
+  container_name: dwp-mysql
+  build: ./mysql/
+
+dwp-wordpress:
+  container_name: dwp-wordpress
+  build: ./wordpress/
+  links:
+    - dwp-mysql:mysql
+  ports:
+    - "80:80"
+  volumes:
+    - "./wordpress/plugins:/var/www/html/wp-content/plugins"
